@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Allerta+Stencil&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titan+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+    color: #335EEA;
+}
+body{
+    background-color: #FAFBFB;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    
+}
+nav ul li a{
+    color: #93A1BA;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: #335EEA;
+    margin-left: 20px;
+}
+nav ul i{
+    padding: 5px;
+}
+.search{
+    display: flex;
+    position: relative;
+}
+.search input{
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    margin-right: 20px;
+}
+.search i{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 25px;
+}
+.search input::placeholder{
+    font-size: 18px;
+    color: #93A1BA;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    width: 100%;
+    height: 55vh;
+}
+.hero .content{
+    margin-top: 200px;
+}
+.hero .content h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: 50px;
+}
+span{
+    color: #335EEA;
+}
+.hero .content p{
+    font-size: 18px;
+    color: #848B99;
+    margin-top: 30px;
+}
+.btn-1{
+    font-size: 16px;
+    background-color: #335EEA;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 40px;
+    box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.50);
+}
+.btn-2{
+    font-size: 16px;
+    background-color: #E1E7FC;
+    color: #264093;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 16px;
+    
+}
+.btn-1 i{
+    margin-left: 10px;
+}
+.hero img{
+    width: 500px;
+    height: 500px;
+    margin-left: 250px;
+    margin-top: 230px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
